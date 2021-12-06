@@ -1,0 +1,37 @@
+// Dados dos puntos X y Y , que son las coordenadas del plano cartesiano, 
+// haga un algoritmo para clasificar el cuadrante del plano donde está ubicada la coordenada (X, Y ).
+-----------------------Algoritmo------------------------
+1. Inicio
+2. Ingresar el valor del eje X
+3. Ingresar el valor del eje Y
+4. Comparar si X es mayor a 0 y si Y es mayor a 0
+5. Si X es mayor a 0 y si Y es mayor a 0, presentar Los valores corresponden al Primer Cuadrante 
+6. Comparar si X es menor a 0 y si Y es mayor a 0
+7. Si X es menor a 0 y si Y es mayor a 0, presentar Los valores corresponden al Segundo Cuadrante
+8. Comparar si X es menor a 0 y si Y es menor a 0
+9. si X es menor a 0 y si Y es menor a 0, presentar Los valores corresponden al Tercer Cuadrante
+10. Si los datos no pertenecen a ninguna de las anteriores condiciones presentar Los valores corresponen al Cuarto Cuadrante
+11. Fin
+
+------------------Miniespecificación--------------------
+1. Inicio
+2. x, int[0,n]
+3. y, int[0,n]
+4. Escribir ("Ingrese el valor de x")
+5. Leer x
+6. Escribir ("Ingrese el valor de y")
+7. leer y
+8. si(x > 0 AND y > 0) entonces
+9.    escribir("Los valores corresponden al Primer Cuadrante")
+10. caso contrario
+11. 	si(x < 0 AND y > 0 )entonces
+12. 	   escribir ("Los valores corresponden al Segundo Cuadrante")
+13.	caso contrario
+14. 		si(x < 0 AND y < 0)entonces
+15. 		   escribir("Los valores corresponden al Tercer Cuadrante")
+16. 		caso contrario
+17. 			escribir("Los valores corresponen al Cuarto Cuadrante")
+18. 		Fin si
+19.	Fin si
+20. Fin si
+21.Fin	

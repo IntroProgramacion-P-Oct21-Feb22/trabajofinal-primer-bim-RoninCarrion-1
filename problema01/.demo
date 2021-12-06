@@ -1,0 +1,48 @@
+// Tomando con referencia la clase de sus ángulos, los triángulos se clasifican en:
+
+// Rectángulo tiene un ángulo recto (igual a 90°)
+// Obtusángulo tiene un ángulo obtuso (mayor que 90° pero menor 180°)
+// Acutángulo los tres ángulos son agudos (menor que 90°) Elaborar un algoritmo que 
+// permita leer el tamaño de los tres ángulos (A,B,C) de un triángulo e imprima qué tipo es.
+
+-----------------------Algoritmo----------------------------
+1. Inicio
+2. Ingresar el valor del primer Ángulo
+3. Ingresar el valor del segundo Ángulo
+4. Ingresar el valor del tercer Ángulo
+5. Comparar si el valor del primer ángulo, del segundo o del tercero es igual a 90º
+6. Comparar si el valor del primer ángulo, del segundo o del tercero es mayor a 90º y menor a 180º
+7. Comparar si el valor del primer ángulo, del segundo o del tercero es menor a 90º
+8. si el valor del primer ángulo, del segundo o del tercero es igual a 90º, el triángulo será Rectángulo
+9. si el valor del primer ángulo, del segundo o del tercero es mayor a 90º y menor a 180º, el triángulo será Obtusángulo
+10. si el valor del primer ángulo, del segundo o del tercero es menor a 90º, el triángulo será Acutángulo.
+11. Presentar el nombre del triángulo.
+12. Fin
+-----------------Miniespecificación-------------------------
+1. Inicio
+// Se declara las variables
+2. A, int[0,n]
+3. B, int[0,n]
+4. C, int[0,n]
+5. a, x(100)[{A-Z}, {a-z}, {BS}]
+6. b, x(100)[{A-Z}, {a-z}, {BS}]
+7. c, x(100)[{A-Z}, {a-z}, {BS}]
+8. triangulo, x(100)[{A-Z}, {a-z}, {BS}]
+9. Escribir ("Ingresar el valor del primer Ángulo")
+10. Leer A
+11. Escribir ("Ingresar el valor del segundo Ángulo")
+12. Leer B
+13. Escribir ("Ingresar el valor del tercer Ángulo")
+14. Leer C
+15. Si ((A == 90) OR (B == 90) OR (C == 90)) entonces
+16. 	 triangulo <-- a
+17. caso contrario 
+18. 	si (((A > 90) AND (A < 180)) OR ((B > 90) AND (B < 180)) entonces
+19.                   OR ((C > 90) AND (C < 180)))
+20. 		triangulo <-- b
+21. 	caso contrario
+22.	  triangulo <-- c
+23.	Fin si
+24. Fin si
+25. Escribir ("Los datos ingresados pertenecen a un: " + triangulo)
+26. Fin
